@@ -1,33 +1,41 @@
 {
-<<<<<<< HEAD
   "name": "developerfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Krutika Soni Portfolio",
   "private": true,
   "homepage": "https://krutikasoni.github.io",
-  "dependencies": {
-    "colorthief": "^2.3.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "jest-canvas-mock": "^2.3.1",
-    "lottie-react": "^2.4.0",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-easy-emoji": "^1.8.1",
-    "react-headroom": "^3.0.0",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "^5.0.1",
-    "react-test-renderer": "^16.10.2",
-    "react-twitter-embed": "3.0.3",
-    "sass": "^1.32.8"
-  },
   "scripts": {
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "npm run build && xcopy build\\*.* . /E /Y && git add . && git commit -m \"Deploy update\" && git push",
+    "predeploy": "npm run build",
+    "deploy": "npm run build && git add . && git commit -m 'Deploy' && git push origin main",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+  },
+  "dependencies": {
+    "colorthief": "^2.3.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "gh-pages": "^6.1.1",
+    "jest-canvas-mock": "^2.3.1",
+    "lottie-react": "^2.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-easy-emoji": "^1.8.1",
+    "react-headroom": "^3.0.0",
+    "react-lottie": "^1.2.3",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "5.0.1",
+    "react-test-renderer": "^16.10.2",
+    "react-twitter-embed": "3.0.3",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "dotenv": "^8.2.0",
+    "prettier": "^2.3.1"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,53 +44,16 @@
     "production": [
       ">0.3%",
       "not ie 11",
-=======
-  "name": "Portfolio",
-  "version": "1.0.0",
-  "description": "Krutika Soni Portfolio",
-  "homepage": "https://krutikasoni.github.io",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/krutikasoni/krutikasoni.github.io.git"
-  },
-  "dependencies": {
-    "gh-pages": "^6.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-easy-emoji": "^1.4.0",
-    "react-lottie": "^1.2.3",
-    "react-scripts": "5.0.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
       "not dead",
       "not op_mini all"
     ],
     "development": [
-<<<<<<< HEAD
       ">0.3%",
-      "not ie 11",
       "not dead",
       "not op_mini all",
-=======
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "dotenv": "^8.2.0",
-    "prettier": "^2.3.1"
-=======
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
   }
 }

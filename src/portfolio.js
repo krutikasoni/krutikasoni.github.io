@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-/* Change this file to get your personal Portfolio */
-=======
-/* Portfolio Configuration - FINAL VERSION */
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
@@ -21,16 +15,9 @@ const greeting = {
   username: "Krutika Soni",
   title: "Hi all, I'm Krutika 👋",
   subTitle: emoji(
-<<<<<<< HEAD
-    "A data-driven storyteller, passionate about transforming messy data into actionable insights. Skilled in marketing analytics, campaign performance, automation, and building end-to-end solutions using SQL, Python, Power BI, and GA4. 📊"
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1yvoOgK-Pz0k7ZzHcP9L5eFyFJQ8HBPjA/view?usp=sharing",
-=======
     "A data-driven storyteller 📊 passionate about transforming messy data into actionable insights. Skilled in marketing analytics, campaign performance, automation, and building end-to-end solutions using SQL, Python, Power BI, and GA4."
   ),
   resumeLink: "https://drive.google.com/file/d/1yvoOgK-Pz0k7ZzHcP9L5eFyFJQ8HBPjA/view?usp=sharing",
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
   displayGreeting: true
 };
 
@@ -55,13 +42,9 @@ const skillsSection = {
     { skillName: "powerbi", fontAwesomeClassname: "fas fa-chart-bar" },
     { skillName: "ga4", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "excel", fontAwesomeClassname: "fas fa-file-excel" },
-<<<<<<< HEAD
-    { skillName: "tableau", fontAwesomeClassname: "fas fa-chart-pie" }
-=======
     { skillName: "tableau", fontAwesomeClassname: "fas fa-chart-pie" },
     { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
     { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" }
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
   ],
   display: true
 };
@@ -74,24 +57,14 @@ const educationInfo = {
       logo: require("./assets/images/asuLogo.png"),
       subHeader: "M.S. in Business Analytics",
       duration: "Aug 2023 – May 2025",
-<<<<<<< HEAD
-      desc:
-        "Developed expertise in data-driven decision-making across marketing, supply chain, and finance. Curriculum covered predictive modeling, machine learning, time series forecasting, data visualization, and optimization. Hands-on experience with tools like SQL, Python, R, Power BI, Tableau, and SAP."
-=======
-      desc: "Focus on marketing analytics, time series forecasting, predictive modeling"
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
+      desc: "Developed expertise in data-driven decision-making across marketing, supply chain, and finance. Curriculum covered predictive modeling, machine learning, time series forecasting, data visualization, and optimization. Hands-on experience with tools like SQL, Python, R, Power BI, Tableau, and SAP."
     },
     {
       schoolName: "NMIMS University, India",
       logo: require("./assets/images/nmimsLogo.png"),
       subHeader: "BBA in Marketing",
       duration: "2018 – 2021",
-<<<<<<< HEAD
-      desc:
-        "Specialized in consumer behavior, brand strategy, and digital marketing. Gained foundational knowledge in business strategy, economics, and analytics. Led multiple projects involving market research, A/B testing, and campaign performance analysis."
-=======
-      desc: "Graduated with distinction, specializing in consumer behavior and digital marketing"
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
+      desc: "Specialized in consumer behavior, brand strategy, and digital marketing. Gained foundational knowledge in business strategy, economics, and analytics. Led multiple projects involving market research, A/B testing, and campaign performance analysis."
     }
   ]
 };
@@ -99,11 +72,7 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-<<<<<<< HEAD
-    { Stack: "SQL & Python", progressPercentage: "70%" },
-=======
     { Stack: "SQL & Python", progressPercentage: "90%" },
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
     { Stack: "Marketing Analytics & Automation", progressPercentage: "85%" },
     { Stack: "Visualization & Reporting", progressPercentage: "80%" }
   ],
@@ -112,7 +81,6 @@ const techStack = {
 
 const workExperiences = {
   display: true,
-<<<<<<< HEAD
   experience: [
     {
       role: "Marketing Analyst (Volunteer)",
@@ -171,60 +139,43 @@ const workExperiences = {
       desc: "Conducted client interaction and feedback analysis, improving onboarding processes."
     }
   ]
-=======
-  experience: []
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
 };
 
 const bigProjects = {
   title: "Projects",
   subtitle: "Selected Projects & Case Studies",
-<<<<<<< HEAD
   projects: [
     {
       image: require("./assets/images/shipment.png"),
       projectName: "Shipment Delivery Date Prediction",
       projectDesc: "ETL pipeline & ML model to predict delivery dates using SAP + scraped tracking data for a Global Electronics Distributor.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/krutikasoni/shipment-delivery-ml" }
-      ]
+      footerLink: [{ name: "GitHub", url: "https://github.com/krutikasoni/shipment-delivery-ml" }]
     },
     {
       image: require("./assets/images/parking.png"),
       projectName: "Parking Space Detection with YOLOv8",
       projectDesc: "Built a YOLOv8-based computer vision app to detect parking space availability in real time.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/krutikasoni/Parking-Space-Detection" }
-      ]
+      footerLink: [{ name: "GitHub", url: "https://github.com/krutikasoni/Parking-Space-Detection" }]
     },
     {
       image: require("./assets/images/yelp.png"),
       projectName: "Yelp Review Sentiment Analysis",
       projectDesc: "Natural language processing pipeline to classify Yelp reviews and visualize sentiment trends.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/krutikasoni/Yelp-Reviews-UnderservedMarkets" }
-      ]
+      footerLink: [{ name: "GitHub", url: "https://github.com/krutikasoni/Yelp-Reviews-UnderservedMarkets" }]
     },
     {
       image: require("./assets/images/mentalhealth.png"),
       projectName: "Mental Health Performance Prediction",
       projectDesc: "Survey-based ML models predicting mental health status based on behavioral and workplace signals.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/krutikasoni/Student_Mental_Health" }
-      ]
+      footerLink: [{ name: "GitHub", url: "https://github.com/krutikasoni/Student_Mental_Health" }]
     },
     {
       image: require("./assets/images/doe.png"),
       projectName: "Design of Experiments",
       projectDesc: "Optimized production factors using ANOVA and regression for controlled experimental setups.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/krutikasoni/Design-of-Experiment-SelfieMemorability" }
-      ]
+      footerLink: [{ name: "GitHub", url: "https://github.com/krutikasoni/Design-of-Experiment-SelfieMemorability" }]
     }
   ],
-=======
-  projects: [],
->>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
   display: true
 };
 
