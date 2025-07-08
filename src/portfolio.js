@@ -42,9 +42,7 @@ const skillsSection = {
     { skillName: "powerbi", fontAwesomeClassname: "fas fa-chart-bar" },
     { skillName: "ga4", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "excel", fontAwesomeClassname: "fas fa-file-excel" },
-    { skillName: "tableau", fontAwesomeClassname: "fas fa-chart-pie" },
-    { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" }
+    { skillName: "tableau", fontAwesomeClassname: "fas fa-chart-pie" }
   ],
   display: true
 };
@@ -72,7 +70,7 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "SQL & Python", progressPercentage: "90%" },
+    { Stack: "SQL & Python", progressPercentage: "70%" },
     { Stack: "Marketing Analytics & Automation", progressPercentage: "85%" },
     { Stack: "Visualization & Reporting", progressPercentage: "80%" }
   ],
