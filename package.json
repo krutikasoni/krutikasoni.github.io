@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -35,22 +36,53 @@
     "production": [
       ">0.3%",
       "not ie 11",
+=======
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Krutika Soni Portfolio",
+  "homepage": "https://krutikasoni.github.io",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/krutikasoni/krutikasoni.github.io.git"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-easy-emoji": "^1.4.0",
+    "react-lottie": "^1.2.3",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+>>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
       "not dead",
       "not op_mini all"
     ],
     "development": [
+<<<<<<< HEAD
       ">0.3%",
       "not ie 11",
       "not dead",
       "not op_mini all",
+=======
+>>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.2.0",
     "prettier": "^2.3.1"
+=======
+>>>>>>> cd4c4f1a8f1f76aae250df644243f4f87ccfe499
   }
 }
