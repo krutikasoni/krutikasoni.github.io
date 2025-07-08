@@ -15,7 +15,7 @@ const greeting = {
   username: "Krutika Soni",
   title: "Hi welcome! I'm Krutika 👋",
   subTitle: emoji(
-    "A data-driven storyteller 📊 passionate about transforming messy data into actionable insights. Skilled in marketing analytics, campaign performance, automation, and building end-to-end solutions using SQL, Python, Power BI, and GA4."
+    "A data-driven storyteller passionate about transforming messy data into actionable insights. Skilled in marketing analytics, campaign performance, automation, and building end-to-end solutions using SQL, Python, Power BI, and GA4. 📊"
   ),
   resumeLink: "https://drive.google.com/file/d/1yvoOgK-Pz0k7ZzHcP9L5eFyFJQ8HBPjA/view?usp=sharing",
   displayGreeting: true
