@@ -1,24 +1,58 @@
 @import "./globalColor";
 
+// Global App container
 .App {
   text-align: center;
   width: 100%;
   overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #ffe1e8, #fad0c4);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  color: $textColorDark;
 }
 
+// Glass-like effect wrapper (you can use this class on any container div)
+.glass-card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+// Optional: Logo animation styles (if used)
 .App-logo {
   height: 40vmin;
+  animation: App-logo-spin infinite 20s linear;
 }
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// Titles and links
 .App-header {
-  background-color: $appHeaderBG;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(0.625rem + 2vmin);
-  color: $textColorDark;
 }
 
 .App-link {
