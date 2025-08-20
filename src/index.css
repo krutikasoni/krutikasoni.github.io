@@ -1,0 +1,47 @@
+/* index.css — pure CSS version (no SCSS) */
+
+/* If you only have these files, keep only these lines.
+   Remove any url(...) for files you don't actually have. */
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Agustina Regular"),
+       url("./assets/fonts/Agustina.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat"),
+       url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+html, body, #root { height: 100%; }
+
+html, body { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0b0b0f 0%, #3a0ca3 40%, #6a00f4 100%);
+  color: #ffffff;
+  min-height: 100%;
+  font: 19px / 23px "Montserrat", Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  html, body {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
